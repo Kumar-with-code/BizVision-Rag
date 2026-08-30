@@ -3,3 +3,25 @@ __pycache__/
 *.pyc
 data/
 .env
+
+
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment variables / API keys
+.env
+.env.*
+!.env.example
+
+# Local data
+data/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
