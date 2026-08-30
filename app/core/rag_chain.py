@@ -17,7 +17,7 @@ os.getenv('GROQ_API_KEY')
 
 llm = ChatGroq(model='openai/gpt-oss-20b')
 
-docs = load_and_split_documents("app/core/sample.pdf")
+docs = load_and_split_documents("app/core/sample_Business_Vision.pdf")
 embeddings = get_embedding_model()
 db = vector_db(docs, embeddings)
 retriever = db.as_retriever()
@@ -50,4 +50,4 @@ print("RAG Chain Created Successfully!")
 
 
 if __name__ == '__main__':
-    print(rag_chain('How can i enhance my skills?'))
+    print(rag_chain('How can i enhance my skills on business development'))
