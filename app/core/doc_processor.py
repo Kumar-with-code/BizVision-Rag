@@ -13,6 +13,7 @@ def load_and_split_documents(file_path : str):
         raise ValueError("Only pdf or docx files are supported!")
 
     docs = loader.load()
+    
     splitter = RecursiveCharacterTextSplitter(
         chunk_size = 500,
         chunk_overlap = 50,
@@ -21,6 +22,5 @@ def load_and_split_documents(file_path : str):
     )
 
     chunks = splitter.split_documents(docs)
-    return chunks
 
-print("The document is loaded and chunked successfully!")
+    return chunks

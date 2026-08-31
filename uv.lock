@@ -27,10 +27,13 @@ dependencies = [
     { name = "matplotlib" },
     { name = "numpy" },
     { name = "pandas" },
+    { name = "pillow" },
     { name = "pymupdf" },
     { name = "pypdf" },
     { name = "python-docx" },
     { name = "sentence-transformers" },
+    { name = "torch" },
+    { name = "transformers" },
     { name = "unstructured" },
 ]
 
@@ -48,10 +51,13 @@ requires-dist = [
     { name = "matplotlib", specifier = ">=3.11.1" },
     { name = "numpy", specifier = ">=2.5.2" },
     { name = "pandas", specifier = ">=3.0.5" },
+    { name = "pillow", specifier = ">=12.3.0" },
     { name = "pymupdf", specifier = ">=1.28.2" },
     { name = "pypdf", specifier = ">=6.16.1" },
     { name = "python-docx", specifier = ">=1.2.0" },
     { name = "sentence-transformers", specifier = ">=5.6.1" },
+    { name = "torch", specifier = ">=2.13.0" },
+    { name = "transformers", specifier = ">=5.15.1" },
     { name = "unstructured", specifier = ">=0.25.2" },
 ]
 

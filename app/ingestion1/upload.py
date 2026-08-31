@@ -18,4 +18,4 @@ def uploading_document(file_path):
         "file_type" : path.suffix.lower()
     }
 
-print("Document is uploaded successfully!")
+print("PDF/DOCXDocument is uploaded successfully!")

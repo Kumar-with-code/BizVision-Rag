@@ -1,27 +1,12 @@
+# Python Virtual Environment
 .venv/
-__pycache__/
-*.pyc
 data/
-.env
-
-
-# Virtual environment
-.venv/
-
-# Python cache
+.vscode/
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
 
-# Environment variables / API keys
+# Environment Variables 
 .env
 .env.*
 !.env.example
-
-# Local data
-data/
-
-# Jupyter
-.ipynb_checkpoints/
-
-# IDE
-.vscode/

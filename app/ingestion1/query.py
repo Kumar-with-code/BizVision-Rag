@@ -1,5 +1,6 @@
-from app.core.rag_chain import rag_chain
+from app.core.rag_pipeline import rag_pipeline
+
 
 def user_query(question : str):
-    result = rag_chain.invoke(question)
+    result = rag_pipeline.invoke(question)
     return result
